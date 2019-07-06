@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Duck Racer 1.5.1.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A</string>
+				<key>dateExpires</key>
+				<string>8/7/18</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<true/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>ABF7A0A9208FEA07BD6B7BAE17ACB31846F72A8A</string>
+						<key>dateExpires</key>
+						<string>8/7/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftySound.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>JG2J3QAPHJ</string>
+						<key>name</key>
+						<string>Gerardo Gallegos</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>JG2J3QAPHJ.com.GerGal.DuckRacer</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>JG2J3QAPHJ</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>JG2J3QAPHJ.com.GerGal.DuckRacer</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>DuckRacer.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>fe5c4a60-2e07-49a4-bedf-3cd1560b6bbe</string>
+				<key>name</key>
+				<string>XC iOS: com.GerGal.DuckRacer</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>JG2J3QAPHJ</string>
+				<key>name</key>
+				<string>Gerardo Gallegos</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		499730B01E05D9CB00299DF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499730AF1E05D9CB00299DF5 /* AppDelegate.swift */; };
+		499730B21E05D9CB00299DF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499730B11E05D9CB00299DF5 /* ViewController.swift */; };
+		499730B51E05D9CB00299DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499730B31E05D9CB00299DF5 /* Main.storyboard */; };
+		499730BA1E05D9CB00299DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499730B81E05D9CB00299DF5 /* LaunchScreen.storyboard */; };
+		CF0162FD4ACFBFCFE2EFFA2B /* Pods_DuckRacer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33FEE95455489EC81880E14F /* Pods_DuckRacer.framework */; };
+		D12708851F36BE1A00A852A3 /* quack.wav in Resources */ = {isa = PBXBuildFile; fileRef = D12708841F36BE1A00A852A3 /* quack.wav */; };
+		D14FDD741F4F9D5F003801C7 /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = D14FDD721F4F9D5F003801C7 /* lose.wav */; };
+		D14FDD751F4F9D5F003801C7 /* victory.wav in Resources */ = {isa = PBXBuildFile; fileRef = D14FDD731F4F9D5F003801C7 /* victory.wav */; };
+		D158368D1F96937E00B60160 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158368C1F96937E00B60160 /* OptionsViewController.swift */; };
+		D15CD9601F8F065700A515B9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CD95F1F8F065700A515B9 /* FirstViewController.swift */; };
+		D165D8BD1F9AECF600AACBE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4920C4F91E086C9000261C3E /* Assets.xcassets */; };
+		D185C88C1F9C21E200D1FE7B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D185C88B1F9C21E200D1FE7B /* GoogleService-Info.plist */; };
+		D19704901F38DF24006EA911 /* DuckRacerSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = D197048F1F38DF1A006EA911 /* DuckRacerSound.aif */; };
+		D1A57DD01F3411A7002F4125 /* launchDuck.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A57DCF1F3411A7002F4125 /* launchDuck.png */; };
+		D1BB14161F9043940093E863 /* DifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BB14151F9043940093E863 /* DifficultyViewController.swift */; };
+		D1BB14181F9043A50093E863 /* PreGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BB14171F9043A50093E863 /* PreGameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D11BC0131F9B9D6B00EE8156 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		29DB5FBEE0C8D525A349E5F5 /* Pods-DuckRacer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuckRacer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DuckRacer/Pods-DuckRacer.debug.xcconfig"; sourceTree = "<group>"; };
+		33FEE95455489EC81880E14F /* Pods_DuckRacer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuckRacer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4920C4F91E086C9000261C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		499730AC1E05D9CB00299DF5 /* DuckRacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuckRacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		499730AF1E05D9CB00299DF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		499730B11E05D9CB00299DF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		499730B41E05D9CB00299DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		499730B91E05D9CB00299DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		499730BB1E05D9CB00299DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73173AC626109E746D3C338 /* Pods-DuckRacer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuckRacer.release.xcconfig"; path = "Pods/Target Support Files/Pods-DuckRacer/Pods-DuckRacer.release.xcconfig"; sourceTree = "<group>"; };
+		D12708841F36BE1A00A852A3 /* quack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = quack.wav; sourceTree = "<group>"; };
+		D14FDD721F4F9D5F003801C7 /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
+		D14FDD731F4F9D5F003801C7 /* victory.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = victory.wav; sourceTree = "<group>"; };
+		D158368C1F96937E00B60160 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		D15CD95F1F8F065700A515B9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D185C88B1F9C21E200D1FE7B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D197048F1F38DF1A006EA911 /* DuckRacerSound.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = DuckRacerSound.aif; sourceTree = "<group>"; };
+		D1A57DCF1F3411A7002F4125 /* launchDuck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchDuck.png; sourceTree = "<group>"; };
+		D1BB14151F9043940093E863 /* DifficultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyViewController.swift; sourceTree = "<group>"; };
+		D1BB14171F9043A50093E863 /* PreGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499730A91E05D9CB00299DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0162FD4ACFBFCFE2EFFA2B /* Pods_DuckRacer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		499730A31E05D9CB00299DF5 = {
+			isa = PBXGroup;
+			children = (
+				499730AE1E05D9CB00299DF5 /* DuckRacer */,
+				499730AD1E05D9CB00299DF5 /* Products */,
+				EBA7E11E8B47020EA8D9CC06 /* Pods */,
+				53BE979F38DB8E78E3A88276 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		499730AD1E05D9CB00299DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499730AC1E05D9CB00299DF5 /* DuckRacer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499730AE1E05D9CB00299DF5 /* DuckRacer */ = {
+			isa = PBXGroup;
+			children = (
+				499730AF1E05D9CB00299DF5 /* AppDelegate.swift */,
+				D15CD95F1F8F065700A515B9 /* FirstViewController.swift */,
+				D1BB14151F9043940093E863 /* DifficultyViewController.swift */,
+				D1BB14171F9043A50093E863 /* PreGameViewController.swift */,
+				499730B11E05D9CB00299DF5 /* ViewController.swift */,
+				D158368C1F96937E00B60160 /* OptionsViewController.swift */,
+				499730B31E05D9CB00299DF5 /* Main.storyboard */,
+				4920C4F91E086C9000261C3E /* Assets.xcassets */,
+				499730B81E05D9CB00299DF5 /* LaunchScreen.storyboard */,
+				D1A57DCF1F3411A7002F4125 /* launchDuck.png */,
+				499730BB1E05D9CB00299DF5 /* Info.plist */,
+				D12708841F36BE1A00A852A3 /* quack.wav */,
+				D197048F1F38DF1A006EA911 /* DuckRacerSound.aif */,
+				D14FDD721F4F9D5F003801C7 /* lose.wav */,
+				D14FDD731F4F9D5F003801C7 /* victory.wav */,
+				D185C88B1F9C21E200D1FE7B /* GoogleService-Info.plist */,
+			);
+			name = DuckRacer;
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		53BE979F38DB8E78E3A88276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33FEE95455489EC81880E14F /* Pods_DuckRacer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBA7E11E8B47020EA8D9CC06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29DB5FBEE0C8D525A349E5F5 /* Pods-DuckRacer.debug.xcconfig */,
+				C73173AC626109E746D3C338 /* Pods-DuckRacer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499730AB1E05D9CB00299DF5 /* DuckRacer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499730BE1E05D9CB00299DF5 /* Build configuration list for PBXNativeTarget "DuckRacer" */;
+			buildPhases = (
+				B36DFEF624C306C6601C523F /* [CP] Check Pods Manifest.lock */,
+				499730A81E05D9CB00299DF5 /* Sources */,
+				499730A91E05D9CB00299DF5 /* Frameworks */,
+				499730AA1E05D9CB00299DF5 /* Resources */,
+				7C99D4D1A4CA58D42A3410C0 /* [CP] Embed Pods Frameworks */,
+				77ADF96DE1CA80BD893D6DC1 /* [CP] Copy Pods Resources */,
+				D11BC0131F9B9D6B00EE8156 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuckRacer;
+			productName = Demo;
+			productReference = 499730AC1E05D9CB00299DF5 /* DuckRacer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		499730A41E05D9CB00299DF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Gerardo Gallegos";
+				TargetAttributes = {
+					499730AB1E05D9CB00299DF5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JG2J3QAPHJ;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 499730A71E05D9CB00299DF5 /* Build configuration list for PBXProject "DuckRacer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 499730A31E05D9CB00299DF5;
+			productRefGroup = 499730AD1E05D9CB00299DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499730AB1E05D9CB00299DF5 /* DuckRacer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499730AA1E05D9CB00299DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19704901F38DF24006EA911 /* DuckRacerSound.aif in Resources */,
+				499730BA1E05D9CB00299DF5 /* LaunchScreen.storyboard in Resources */,
+				D185C88C1F9C21E200D1FE7B /* GoogleService-Info.plist in Resources */,
+				D12708851F36BE1A00A852A3 /* quack.wav in Resources */,
+				D14FDD741F4F9D5F003801C7 /* lose.wav in Resources */,
+				D1A57DD01F3411A7002F4125 /* launchDuck.png in Resources */,
+				499730B51E05D9CB00299DF5 /* Main.storyboard in Resources */,
+				D165D8BD1F9AECF600AACBE9 /* Assets.xcassets in Resources */,
+				D14FDD751F4F9D5F003801C7 /* victory.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77ADF96DE1CA80BD893D6DC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DuckRacer/Pods-DuckRacer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C99D4D1A4CA58D42A3410C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DuckRacer/Pods-DuckRacer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DuckRacer/Pods-DuckRacer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B36DFEF624C306C6601C523F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuckRacer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499730A81E05D9CB00299DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15CD9601F8F065700A515B9 /* FirstViewController.swift in Sources */,
+				499730B21E05D9CB00299DF5 /* ViewController.swift in Sources */,
+				D1BB14181F9043A50093E863 /* PreGameViewController.swift in Sources */,
+				D158368D1F96937E00B60160 /* OptionsViewController.swift in Sources */,
+				499730B01E05D9CB00299DF5 /* AppDelegate.swift in Sources */,
+				D1BB14161F9043940093E863 /* DifficultyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		499730B31E05D9CB00299DF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499730B41E05D9CB00299DF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		499730B81E05D9CB00299DF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499730B91E05D9CB00299DF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		499730BC1E05D9CB00299DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		499730BD1E05D9CB00299DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		499730BF1E05D9CB00299DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29DB5FBEE0C8D525A349E5F5 /* Pods-DuckRacer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
+				DEVELOPMENT_TEAM = JG2J3QAPHJ;
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GerGal.DuckRacer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		499730C01E05D9CB00299DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73173AC626109E746D3C338 /* Pods-DuckRacer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_ACTIVITY_MODE = "";
+				DEVELOPMENT_TEAM = JG2J3QAPHJ;
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GerGal.DuckRacer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499730A71E05D9CB00299DF5 /* Build configuration list for PBXProject "DuckRacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499730BC1E05D9CB00299DF5 /* Debug */,
+				499730BD1E05D9CB00299DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499730BE1E05D9CB00299DF5 /* Build configuration list for PBXNativeTarget "DuckRacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499730BF1E05D9CB00299DF5 /* Debug */,
+				499730C01E05D9CB00299DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 499730A41E05D9CB00299DF5 /* Project object */;
+}
