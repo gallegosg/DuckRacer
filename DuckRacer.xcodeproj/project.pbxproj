@@ -18,11 +18,11 @@
 		D158368D1F96937E00B60160 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158368C1F96937E00B60160 /* OptionsViewController.swift */; };
 		D15CD9601F8F065700A515B9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CD95F1F8F065700A515B9 /* FirstViewController.swift */; };
 		D165D8BD1F9AECF600AACBE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4920C4F91E086C9000261C3E /* Assets.xcassets */; };
-		D185C88C1F9C21E200D1FE7B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D185C88B1F9C21E200D1FE7B /* GoogleService-Info.plist */; };
 		D19704901F38DF24006EA911 /* DuckRacerSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = D197048F1F38DF1A006EA911 /* DuckRacerSound.aif */; };
 		D1A57DD01F3411A7002F4125 /* launchDuck.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A57DCF1F3411A7002F4125 /* launchDuck.png */; };
 		D1BB14161F9043940093E863 /* DifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BB14151F9043940093E863 /* DifficultyViewController.swift */; };
 		D1BB14181F9043A50093E863 /* PreGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BB14171F9043A50093E863 /* PreGameViewController.swift */; };
+		D1CAEE2322D0FEF300E10009 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1CAEE2222D0FEF300E10009 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,11 +54,11 @@
 		D14FDD731F4F9D5F003801C7 /* victory.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = victory.wav; sourceTree = "<group>"; };
 		D158368C1F96937E00B60160 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		D15CD95F1F8F065700A515B9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D185C88B1F9C21E200D1FE7B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D197048F1F38DF1A006EA911 /* DuckRacerSound.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = DuckRacerSound.aif; sourceTree = "<group>"; };
 		D1A57DCF1F3411A7002F4125 /* launchDuck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchDuck.png; sourceTree = "<group>"; };
 		D1BB14151F9043940093E863 /* DifficultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyViewController.swift; sourceTree = "<group>"; };
 		D1BB14171F9043A50093E863 /* PreGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGameViewController.swift; sourceTree = "<group>"; };
+		D1CAEE2222D0FEF300E10009 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 				D197048F1F38DF1A006EA911 /* DuckRacerSound.aif */,
 				D14FDD721F4F9D5F003801C7 /* lose.wav */,
 				D14FDD731F4F9D5F003801C7 /* victory.wav */,
-				D185C88B1F9C21E200D1FE7B /* GoogleService-Info.plist */,
+				D1CAEE2222D0FEF300E10009 /* GoogleService-Info.plist */,
 			);
 			name = DuckRacer;
 			path = Demo;
@@ -197,8 +197,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D19704901F38DF24006EA911 /* DuckRacerSound.aif in Resources */,
+				D1CAEE2322D0FEF300E10009 /* GoogleService-Info.plist in Resources */,
 				499730BA1E05D9CB00299DF5 /* LaunchScreen.storyboard in Resources */,
-				D185C88C1F9C21E200D1FE7B /* GoogleService-Info.plist in Resources */,
 				D12708851F36BE1A00A852A3 /* quack.wav in Resources */,
 				D14FDD741F4F9D5F003801C7 /* lose.wav in Resources */,
 				D1A57DD01F3411A7002F4125 /* launchDuck.png in Resources */,
